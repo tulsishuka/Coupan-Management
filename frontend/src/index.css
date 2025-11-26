@@ -1,20 +1,6 @@
-body {
-  background: #f4f4f4;
-  font-family: Arial;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.page {
-  width: 600px;
-  margin: auto;
-  padding: 20px;
-  background: white;
-}
-input {
-  display: block;
-  margin: 10px 0;
-  padding: 8px;
-}
-button {
-  padding: 10px;
-  margin-bottom: 20px;
-}
+
+
