@@ -15,7 +15,7 @@ export default function Login({ setLoggedIn }) {
   <div className="min-h-screen flex">
       <div className="flex-1 bg-gradient-to-br from-purple-500 to-blue-500 text-white flex flex-col justify-center p-16">
         <h1 className="text-5xl font-bold mb-4">Welcome Back</h1>
-        <p className="text-lg">Log in to access the admin panel and manage your coupons. First-time demo login: hire-me@anshumat.org</p></div>
+        <p className="text-lg">Log in to access the admin panel and manage your coupons. First-time demo login: hire-me@anshumat.org and pass:HireMe@2025</p></div>
       <div className="flex-1 flex items-center justify-center bg-white p-16">
         <div className="w-full max-w-md">
           <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Login</h2>
