@@ -10,10 +10,10 @@ const PORT = 5000;
 app.post("/api/coupons", (req, res) => {
   const newCoupon = req.body;
   const exists = coupons.find((c) => c.code === newCoupon.code);
-  if (exists) return res.status(400).json({ error: "Coupon already exists" });
+  if (exists) return res.status(400).json({ error: "coupon already have" });
 
   coupons.push(newCoupon);
-  res.json({ message: "Coupon created", coupon: newCoupon });
+  res.json({ message: "Coupon sucessfully created", coupon: newCoupon });
 });
 
 app.get("/api/coupons", (req, res) => {
