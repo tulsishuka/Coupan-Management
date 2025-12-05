@@ -73,10 +73,5 @@ Email: hire-me@anshumat.org
 Password: HireMe@2025!
 ```
 
-🧠 Best Coupon Selection Logic
-```
-🤖 AI Usage Note (Required)
 
-I used AI tools to clarify assignment requirements into user story, plan the folder structure, and get guidance for writing some boilerplate code.
-All logic, implementation, debugging, and testing were done by me.
-Prompts used include: “Explain coupon assignment,” “Provide folder structure,” and “Write login UI.”
+
